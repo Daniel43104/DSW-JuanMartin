@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+/*.center-h {justify-content: center;}
+.center-v {align-items: center;}*/
+
+body{background-color: rgb(00, 58, 83);
+    font-family: Arial, Helvetica, sans-serif;  
+}
+h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  text-align: center
+}
+
+h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;}
+
+.contenedor {
+    position: relative;
+    margin: 1% auto;
+    width: 97%;
+    height: 100%;
+    padding:0%; 
+    background-color: rgb(255, 255, 255, .40);
+    /*background-image: url("imagenes/fondo1.png");*/
+}
+
+.baner {
+    position: relative;
+    margin: 0% auto;
+    width: 98%;
+    height: 20%;
+    padding:1%; 
+    background-color: rgb(33, 33, 33); 
+    display:flex; align-items: start; 
+}
+
+
+.titulo {color: rgb(255, 255, 255); 
+    position: relative;
+    left: 45%;
+    margin: 1%;
+    
+}
+
+#logo1{
+    position: absolute;
+    top:0;
+    left: 38%;
+    bottom: 0;
+    margin: 1%;
+    width: 6%;
+    height: 80%;
+    padding:0%; 
+
+}
+
+#logo2{
+    position: absolute;
+    top:0;
+    left: 30%;
+    bottom: 0;
+    margin: 1%;
+    width: 6%;
+    height: 80%;
+    padding:0%; 
+}
+
+
+
+.menu {
+    position: relative;
+    margin: 0% auto;
+    width: 98%;
+    height: 25%;
+    padding:1%; 
+    background-color: rgb(240, 180, 41); 
+    display:flex; align-items: start; 
+    justify-content: space-evenly;
+}
+
+.contenido{
+    position: relative;
+    margin: 0% auto;
+    width: 100%;
+    height: 100%;
+    padding:0%; 
+    display:flex; align-items: start; 
+    justify-content: space-evenly;
+}
+
+
+.izquierdo{
+    padding: 10px;
+    float: left; 
+    width: 50%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, .40);
+}
+
+.derecho{
+    display:inline-block;
+    width: 50%;
+}
+
+.tematica{
+        padding: 10px;
+        float: left; 
+        width: 45%;
+        margin: 5px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255, .40);
+    
+}
+
+#logo3 {
+    left: 0;
+    bottom:0;
+    margin: 1%;
+    width: 48%;
+    padding:0%;
+
+}
+.aside{width: 48%;
+    margin: 1%;
+    float: right; 
+        }
+
+
+.pie{
+    position: relative;
+    margin: 0 auto;
+    width: 98%;
+    height: 10%;
+    padding:1%; 
+    background-color: rgb(244, 121, 32); 
+    display:flex; align-content: right;
+    }       
