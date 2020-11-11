@@ -1,5 +1,5 @@
 *{
-    margin:0;
+   margin:0;
     padding: 0;
     list-style: none;
 }
@@ -22,7 +22,7 @@ h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
     width: 97%;
     height: 100%;
     padding:0%; 
-    background-color: rgb(255, 255, 255, .40);
+    background-color: rgb(255, 255, 255, .40); 
     /*background-image: url("imagenes/fondo1.png");*/
 }
 
@@ -69,6 +69,7 @@ h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 
 
 
+
 .menu {
     position: relative;
     margin: 0% auto;
@@ -95,32 +96,55 @@ h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
     padding: 10px;
     float: left; 
     width: 50%;
-    margin: 5px;
-    border-radius: 5px;
+    margin: 1%;
+    border-radius: 1%;
     background-color: rgb(255, 255, 255, .40);
 }
-
-.derecho{
-    display:inline-block;
-    width: 50%;
-}
-
-.tematica{
-        padding: 10px;
-        float: left; 
-        width: 45%;
-        margin: 5px;
-        border-radius: 5px;
-        background-color: rgb(255, 255, 255, .40);
+.central{
+    padding: 10px;
+    float: center; 
+    width: auto;
+    margin: start;
+    border-radius: 1%;
+    background-color: rgb(255, 255, 255, .40);
     
 }
 
+.derecho{
+    padding: 10px;
+    float: right; 
+    width: 50%;
+    margin: 1% 1% 1% 0%;;
+    border-radius: 1%;
+    background-color: rgb(255, 255, 255, .40);
+    display: flex;
+   
+    }
+
+    .derecho2{
+        padding: 10px;
+        float: right; 
+        width: 50%;
+        margin: 1% 1% 1% 0%;;
+        border-radius: 1%;
+        background-color: rgb(255, 255, 255, .40); 
+        align-content: center;
+         }
+
+
+.tematica{
+        padding: 1%;
+        width: 45%;
+        border-radius: 2%;
+        background-color: rgb(255, 255, 255, .60);
+        align-content: flex-start;
+}
+
 #logo3 {
-    left: 0;
-    bottom:0;
-    margin: 1%;
-    width: 48%;
+    margin: 0%;
+    width: 60%;
     padding:0%;
+    float: inline-start; 
 
 }
 .aside{width: 48%;
@@ -131,10 +155,35 @@ h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 
 .pie{
     position: relative;
+    bottom: 0;
     margin: 0 auto;
     width: 98%;
-    height: 10%;
+    height: 2%;
     padding:1%; 
-    background-color: rgb(244, 121, 32); 
+    background-color: rgb(244, 121, 32);
     display:flex; align-content: right;
     }       
+
+#photo{
+   
+    margin: center;
+    width: 70%;
+    padding:0%; 
+    border-radius: 3%;
+    
+
+}
+
+#capturagithub{
+    left: 50%;
+    width: 85%;
+    border-radius: 3%;
+  
+}
+
+#capturagit{
+    left: 50%;
+    width: 40%;
+    border-radius: 3%;
+  
+}
