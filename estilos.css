@@ -164,6 +164,18 @@ h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
     display:flex; align-content: right;
     }       
 
+    #logogit{
+        margin: 1%;
+        width: 80%;
+        padding:0%; 
+    }
+
+    #logogithub{
+        margin: 1%;
+        width: 100%;
+        padding:0%; 
+    }
+
 #photo{
    
     margin: center;
@@ -176,7 +188,7 @@ h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida S
 
 #capturagithub{
     left: 50%;
-    width: 85%;
+    width: 80%;
     border-radius: 3%;
   
 }
